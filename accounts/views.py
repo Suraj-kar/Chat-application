@@ -7,7 +7,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.signals import user_logged_in,user_logged_out
 from django.dispatch import receiver
-# Create your views here.
 
 class Signup(CreateView):
 	form_class = SignupForm

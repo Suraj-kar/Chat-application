@@ -4,8 +4,7 @@ from django.contrib.auth.models import User
 from friends.models import Friend
 from chats.models import ChatRoom
 from django.db.models import Q
-# Create your views here
-# '''
+
 @login_required
 def chat(request):
     user = request.user
